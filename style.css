@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://pbs.twimg.com/media/ESudAgRUcAAqJJU?format=jpg&name=large);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.222);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.title {
+    padding-top: 20px;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.coll {
+    width: 1000px;
+    margin: 20px auto;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.coll div {
+    width: 250px;
+    text-align: center;
+}
+
+input {
+    width: 60%;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.911);
+    text-align: center;
+    border-color: transparent;
+    border-radius: 20px;
+    font-size: 20px;
+}

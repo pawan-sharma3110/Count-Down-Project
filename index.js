@@ -1,6 +1,7 @@
 const endDate = "23 March 2024 12:00 AM";
 document.querySelector("#end-date").innerText = endDate;
 const inputs = document.querySelectorAll("input");
+ttttttttttttttttttttttttttt
 const clock = () => {
   const currTime = new Date();
   const endTime = new Date(endDate);

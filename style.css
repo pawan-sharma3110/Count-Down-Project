@@ -56,3 +56,25 @@ input {
     border-radius: 20px;
     font-size: 20px;
 }
+
+.gift-para {
+    color: white;
+    font-size: 26px;
+}
+
+.gift {
+    margin: 50px auto;
+    width: 150px;
+    padding: 5px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.185);
+    border: 2px double transparent;
+    border-radius: 20px;
+}
+
+.gift:hover {
+    cursor: pointer;
+    border: 2px double white;
+
+}

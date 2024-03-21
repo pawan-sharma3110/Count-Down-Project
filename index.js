@@ -1,9 +1,9 @@
-const endDate = new Date("21 March 2024 02:24:20 AM");
-document.querySelector("#end-date").innerText = endDate.toLocaleString();
+const endDate = new Date("24 March 2024 00:00:00 AM");
+document.querySelector("#end-date").innerText = endDate;
 const inputs = document.querySelectorAll("input");
 const myAudio = new Audio("audio/rangbarse.mp3");
 const giftBtn = document.querySelector(".gift");
-const wish = giftBtn.addEventListener("click",() => {
+const wish = giftBtn.addEventListener("click", () => {
   myAudio.play();
 });
 
